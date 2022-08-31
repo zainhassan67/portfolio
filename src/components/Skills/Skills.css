@@ -1,0 +1,115 @@
+/* ========================= Begin: ========= skills CSS ========================= */
+
+
+.skills .max-width .title::after
+{
+    content: "What I Know";
+}
+
+.skills .max-width .skills-content .column
+{
+    width: calc(50% - 30px);
+}
+
+.skills .max-width .skills-content .left .text
+{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+.skills .max-width .skills-content .left p
+{
+    text-align: justify;
+}
+
+.skills .max-width .skills-content .left a
+{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.skills .max-width .skills-content .left a:hover
+{
+    color: crimson;
+    background: none;
+
+}
+
+
+
+.skills .max-width .skills-content .right .bars
+{
+    margin-bottom: 15px;
+}
+
+.skills .max-width .skills-content .right .bars .info
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.skills .max-width .skills-content .right .bars .info span
+{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.skills .max-width .skills-content .right .bars .line
+{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+
+.skills .max-width .skills-content .right .bars .line::before
+{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: crimson;
+}
+
+
+.skills .max-width .skills-content .right .bars .html::before
+{
+    width: 90%;
+}
+
+.skills .max-width .skills-content .right .bars .css::before
+{
+    width: 70%;
+}
+
+.skills .max-width .skills-content .right .bars .js::before
+{
+    width: 80%;
+}
+
+.skills .max-width .skills-content .right .bars .cSharp::before
+{
+    width: 60%;
+}
+
+.skills .max-width .skills-content .right .bars .ssms::before
+{
+    width: 70%;
+}
+
+
+
+/* ========================= End: ========= skills CSS ========================= */

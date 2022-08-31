@@ -1,0 +1,18 @@
+Just give the following commands after standing this directory:
+
+
+.......................................................................................
+
+According to package.json, all required libraries/packages are automatically fetched
+
+First command: > yarn install
+
+Second command: > yarn start
+
+.........................................................................................
+
+
+
+
+..........................................................................................
+

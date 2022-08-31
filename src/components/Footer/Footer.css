@@ -1,0 +1,25 @@
+/* ========================= Begin: ========= footer CSS ========================= */
+
+footer
+{
+    margin-top: 300px;
+    background: #111;
+    padding: 50px 23px;
+    color: #fff;
+    text-align: center;
+}
+
+footer span a
+{
+    color: crimson;
+    text-decoration: none;
+}
+
+footer span a:hover
+{
+    text-decoration: underline;
+}
+
+
+
+/* ========================= End: ========= footer CSS ========================= */

@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+/* ========================= Begin: ========= Universal CSS ========================= */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+/* ========================= End: ========= Universal CSS ========================= */
+
+/* ======================= Begin: ========= General CSS ======= Exactly Same CSS ==================== */
+
+
+.max-width
+{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+
+section
+{
+    padding: 100px 0;
+}
+
+
+section .max-width .title
+{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+
+section .max-width .title::before
+{
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+section .max-width .title::after
+{
+    position: absolute;
+    background: #fff;
+    bottom: -12px;
+    left: 50%;
+    padding: 5px;
+    transform: translateX(-50%);
+    font-size: 20px;
+    color: crimson;
+
+}
+
+
+.about, .services, .skills, .teams, .contact, footer
+{
+    font-family: 'Poppins', sans-serif;   
+}
+
+
+.about .max-width .about-content, 
+.services .max-width .services-content,
+.skills .max-width .skills-content,
+.contact .max-width .contact-content
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.services, .teams
+{
+    background: #111;
+    color: #fff;
+}
+
+
+.services .max-width .title::before, .teams .max-width .title::before
+{
+    background: #fff;
+}
+
+
+.services .max-width .title::after, .teams .max-width .title::after
+{
+    content: "what i provide";
+    background: #111;
+}
+
+
+
+
+
+/* ======================= End: ========= General CSS ======= Exactly Same CSS ==================== */

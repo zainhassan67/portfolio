@@ -1,0 +1,95 @@
+/* ========================= Begin: ========= navBar CSS ========================= */
+
+.navBar
+{
+    position: fixed;
+    width: 100%;
+    /* background: crimson; */
+    font-family: 'Ubuntu', sans-serif;
+    padding: 30px 0;
+    transition: all 0.3s ease;
+    z-index: 999;
+}
+
+
+.navBar .max-width
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+
+.navBar.sticky
+{
+    padding: 15px 0;
+    background: crimson;
+}
+
+
+.navBar.sticky .max-width .logo a span
+{
+    color: #fff;
+}
+
+
+.navBar .max-width .logo a
+{
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+.navBar .max-width .logo a span
+{
+    color: crimson;
+    transition: all 0.3s ease;
+}
+
+
+.navBar .max-width .menu li
+{
+    list-style: none;
+    display: inline-block;
+}
+
+
+.navBar .max-width .menu li a
+{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+    display: block;
+}
+
+
+.navBar .max-width .menu li a:hover
+{
+    color: crimson;
+}
+
+
+.navBar.sticky .max-width .menu li a:hover
+{
+    color: #fff;
+}
+
+
+.navBar .max-width .menu-button
+{
+    color: #fff;
+    cursor: pointer;
+    font-size: 23px;
+    display: none;
+}
+
+
+
+
+/* ========================= End: ========= navBar CSS ========================= */
